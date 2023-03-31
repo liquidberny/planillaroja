@@ -37,7 +37,7 @@ function App() {
         </div>
       </main>
       <footer className='Footer'>
-      <SocialIcon url="https://www.instagram.com/p/CqYhyLevbrO/"  network="instagram" bgColor='red' />
+      <SocialIcon url="https://www.instagram.com/planilla.roja_unison/"  network="instagram" bgColor='red' />
       </footer>
     </div>
   );
