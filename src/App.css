@@ -21,6 +21,36 @@
   pointer-events: none;
 }
 
+@keyframes tilt {
+  from {
+    transform: rotate(0deg) skewX(0deg);
+  }
+
+  to {
+    transform: rotate(0deg) skewX(10deg);
+  }
+}
+
+.image-container img {
+  animation: tilt 1s ease-in-out infinite alternate;
+}
+
+@keyframes tilt-left {
+  from {
+    transform: rotate(0deg) skewX(0deg);
+  }
+
+  to {
+    transform: rotate(0deg) skewX(-10deg);
+  }
+}
+
+.image-container img {
+  animation: tilt 1s ease-in-out infinite alternate,
+    tilt-left 1s ease-in-out infinite alternate;
+}
+
+
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
     animation: tilt 1s ease-in-out infinite alternate,
