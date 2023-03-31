@@ -1,18 +1,21 @@
 .App {
   text-align: center;
 }
-.Navbar{
+
+.Navbar {
   text-align: center;
   padding: 1em;
-  color:#ffffff ;
+  color: #ffffff;
   background-color: hsl(358, 92%, 64%);
 
 }
-.Footer{
+
+.Footer {
   text-align: center;
   padding: 1em;
-  color:#ffffff ;
+  color: #ffffff;
 }
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -20,22 +23,9 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: tilt 1s ease-in-out infinite alternate,
+      tilt-left 1s ease-in-out infinite alternate;
   }
-}
-
-@keyframes tilt-left {
-  from {
-    transform: rotate(0deg) skewX(0deg);
-  }
-  to {
-    transform: rotate(0deg) skewX(-10deg);
-  }
-}
-
-.image-container {
-  animation: tilt 1s ease-in-out infinite alternate,
-             tilt-left 1s ease-in-out infinite alternate;
 }
 
 .App-header {
@@ -66,6 +56,7 @@
   from {
     transform: rotate(0deg);
   }
+
   to {
     transform: rotate(360deg);
   }

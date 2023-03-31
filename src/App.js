@@ -11,7 +11,7 @@ function App() {
 
       <header className="App-header">
         <h1>Planilla roja UNISON</h1>
-        <img src={logo} className="image-container" alt="logo" />
+        <img src={logo} className="App-logo" alt="logo" />
         <p>
           Tu voz cuenta, tu voto importa.
         </p>
