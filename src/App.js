@@ -18,7 +18,7 @@ function App() {
         <p>
           Tu voz cuenta, tu voto importa.
         </p>
-        {/* <Video /> */}
+        <Video />
       </header>
       <main className='App-main'>
         <SectionA
