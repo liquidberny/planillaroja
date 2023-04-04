@@ -1,5 +1,5 @@
 import React from 'react';
-import './index.css';
+import './style.css';
 import { SocialIcon } from 'react-social-icons';
 
 function Footer() {
@@ -7,11 +7,11 @@ function Footer() {
         <footer className='footer'>
             
             <div className="card">
-                <button class="button">
-                    <h1>
-                        Mas sobre nosotros
-                    </h1>
-                    </button>
+                <a href="https://www.instagram.com/planilla.roja_unison/">
+                <button className="button">
+                    <h1>Más sobre nosotros</h1>
+                </button>
+                </a>
             </div>
             <div className="card">
                 <SocialIcon url="https://www.instagram.com/planilla.roja_unison/" network="instagram" bgColor='white' />
