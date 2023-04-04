@@ -1,0 +1,35 @@
+.footer {
+    background-color: red;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1em;
+    align-items: center;
+    flex-direction: row;
+    width: auto;
+    height: 100%;
+  }
+  
+  .footer .card {
+    padding: 1%;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    flex: 1;
+  }
+
+  .button {
+    background-color: red;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: transform 0.3s, background-color 0.3s;
+  }
+  
+  .button:hover {
+    transform: scale(1.1);
+    background-color: white;
+    color: black;
+  }
+  

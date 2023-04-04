@@ -1,6 +1,5 @@
 import logo from './assets/logo.png';
 import './App.css';
-import { SocialIcon } from 'react-social-icons';
 
 function App() {
   return (
@@ -33,9 +32,7 @@ function App() {
 
         </div>
       </main>
-      <footer className='Footer'>
-      <SocialIcon url="https://www.instagram.com/planilla.roja_unison/"  network="instagram" bgColor='red' />
-      </footer>
+      
     </div>
   );
 }
