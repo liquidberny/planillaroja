@@ -1,0 +1,13 @@
+section{
+    padding: 15px;
+    height: 100%;
+}
+
+section .img-section{
+    height:50vw;
+}
+
+section.card {
+    border: 0;
+    background-color: rgb(235, 235, 235);
+}
